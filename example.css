@@ -6,29 +6,44 @@ header {
   padding-bottom: 20px;
   padding-left: 20px;
   padding-top: 20px;
+  color:rgb(75, 0, 130);
 }
 
-.bok {
-  font-size: 19px;
-  padding: 10px;
-  
-  border-radius: 50%;
-  background-color: rgba(138, 43, 226, 0.5);
+h1 {
+  font-size: 45px;
+  color: rgb(75, 0, 130);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.kruglo {
+  font-size: 25px;
+  color: grey;
+  text-align: center;
 }
 
 .first-head {
-  display: grid;
-  grid-template-columns: 700px 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
 }
 
 .name {
-  display: flex;
-  justify-content: center;
+
+  margin-left: 20px;
   font-size: 35px;
 }
 
 .call-me {
 
+}
+
+.direction-to {
+
+
+  margin-right: 20px;
 }
 
 .call {
@@ -45,6 +60,8 @@ header {
 }
 
 .call2 {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 20px;
   margin-top: auto;
   margin-bottom: auto;
@@ -57,4 +74,53 @@ header {
   position: fixed;
   top: 400px;
   left: 0px;
+}
+
+.bok {
+  font-size: 19px;
+  padding: 10px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgba(138, 43, 226, 0.5);
+}
+
+.bok:hover {
+  width: 42px;
+}
+
+.write-us {
+  display: grid;
+
+  margin-top: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.write {
+  padding: 10px;
+  margin: 10px;
+}
+
+.viber-ap {
+  width: 40px;
+  padding: 2px;
+}
+
+.messenger-ap {
+  width: 40px;
+  padding: 2px;
+}
+
+
+.telegram-ap {
+  width: 40px;
+  padding: 2px;
+}
+
+
+.whatsup-ap {
+  width: 40px;
+  padding: 2px;
 }
