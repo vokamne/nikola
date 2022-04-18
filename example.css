@@ -3,14 +3,18 @@ body {
 }
 
 header {
-  display: grid;
-  grid-template-columns:
+
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding-bottom: 20px;
   padding-left: 20px;
   padding-top: 20px;
   color:rgb(75, 0, 130);
+}
+
+footer {
+  background-color: rgb(75, 0, 130);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -21,6 +25,66 @@ h1 {
   margin-bottom: 0px;
 }
 
+h3 {text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.ul-center {
+  display: flex;
+  justify-content: center;
+  }
+
+ul {
+  line-height: 150%;
+
+}
+
+.text {
+  padding: 20px;
+  padding-bottom: 60px;
+  color:rgb(139, 69, 19);
+  font-weight: 400;
+  background-color: rgba(244, 164, 96, 0.7);
+  background-image: url(img/remont.png);
+  background-size:650px;
+  border-radius: 20%;
+  font-size: 1em;
+
+}
+
+.back {
+  background-color: rgba(255, 255, 255, 0.6)
+}
+.text2 {
+  padding: 20px;
+  padding-bottom: 60px;
+  color:rgb(139, 69, 19);
+  font-weight: 400;
+  background-color: rgba(244, 164, 96, 0.7);
+  background-image: url(img/electro.png);
+  background-size:500px;
+  border-radius: 20%;
+  font-size: 1em;
+
+}
+
+li {
+  font-size: 20px;
+}
+
+.step-1 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+}
+.step-2 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
 .kruglo {
   font-size: 25px;
   color: grey;
@@ -28,10 +92,7 @@ h1 {
 }
 
 .first-head {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-between;
+  text-align: center;
 }
 
 .name {
@@ -58,14 +119,11 @@ h1 {
 }
 
 .flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+
 }
 
 .call2 {
-  display: flex;
-  flex-wrap: wrap;
+
   font-size: 20px;
   margin-top: auto;
   margin-bottom: auto;
@@ -112,7 +170,7 @@ h1 {
   padding: 2px;
 }
 
-.messenger-ap {
+.facebook-ap {
   width: 40px;
   padding: 2px;
 }
@@ -127,4 +185,20 @@ h1 {
 .whatsup-ap {
   width: 40px;
   padding: 2px;
+}
+
+.footer-call {
+  color: white;
+  padding: 20px;
+}
+
+.footcall {
+  width: 30px;
+}
+
+
+
+.remont {
+  width: 400px;
+  padding: 40px;
 }
