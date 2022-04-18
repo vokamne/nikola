@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+}
+
 header {
   display: grid;
   grid-template-columns:
@@ -6,7 +10,7 @@ header {
   padding-bottom: 20px;
   padding-left: 20px;
   padding-top: 20px;
-  color:rgb(0, 0, 0);
+  color:rgb(75, 0, 130);
 }
 
 h1 {
